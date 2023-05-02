@@ -11,7 +11,7 @@ file_size = os.path.getsize(filename)
 file_size_mb = file_size / (1024 * 1024)
 
 if file_size_mb > 400:
-    print(f"The file size of {filename} is {file_size_mb:.2f} \n file size greater than EBS volume .")
+    print(f"The file size greater than EBS volume .")
 else:
     # pushtoHDFS();
-    print(f"The file size of {filename} is {file_size_mb:.2f} File size acceptable, Pushed to HDFS.")
+    print(f"The File size acceptable, Pushed to HDFS.")
